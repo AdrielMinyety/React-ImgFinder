@@ -114,7 +114,7 @@ function App() {
       {/* si hay imagenes, mostrar paginador*/}
       {/* If there are images, show paginador*/}
       {imagenes.length !== 0 ?
-        <div className="container paginador text-center mx-auto mb-5">
+        <div className="container paginador text-center mx-auto mb-5 pb-5">
           { (paginaActual === 1) ? null : (
             <button 
               type="button"
